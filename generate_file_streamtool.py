@@ -10,103 +10,6 @@ def modify_file(old_file_path, new_file_path, dict_old_new_str):
     print "generate new file {} success".format(new_file_path)
 
 
-# def modify_file_version10(old_file_path, new_file_path, old_str1, new_str1, old_str2, new_str2, old_str3, new_str3,
-#                           old_str4, new_str4, old_str5, new_str5, old_str6, new_str6, old_str7, new_str7,
-#                           old_str8, new_str8, old_str9, new_str9, old_str10, new_str10):
-#     with open(old_file_path, "r") as f1, open(new_file_path, "w") as f2:
-#         for line in f1:
-#             if old_str1 in line:
-#                 line = line.replace(old_str1, new_str1)
-#             if old_str2 in line:
-#                 print old_str2, new_str2
-#                 line = line.replace(old_str2, new_str2)
-#             if old_str3 in line:
-#                 line = line.replace(old_str3, new_str3)
-#             if old_str4 in line:
-#                 line = line.replace(old_str4, new_str4)
-#             if old_str5 in line:
-#                 line = line.replace(old_str5, new_str5)
-#             if old_str6 in line:
-#                 line = line.replace(old_str6, new_str6)
-#             if old_str7 in line:
-#                 line = line.replace(old_str7, new_str7)
-#             if old_str8 in line:
-#                 line = line.replace(old_str8, new_str8)
-#             if old_str9 in line:
-#                 line = line.replace(old_str9, new_str9)
-#             if old_str10 in line:
-#                 line = line.replace(old_str10, new_str10)
-#             f2.write(line)
-#     print "generate new file {} success".format(new_file_path)
-#
-#
-# def modify_file_version11(old_file_path, new_file_path, old_str1, new_str1, old_str2, new_str2, old_str3, new_str3,
-#                           old_str4, new_str4, old_str5, new_str5, old_str6, new_str6, old_str7, new_str7,
-#                           old_str8, new_str8, old_str9, new_str9, old_str10, new_str10, old_str11, new_str11):
-#     with open(old_file_path, "r") as f1, open(new_file_path, "w") as f2:
-#         for line in f1:
-#             if old_str1 in line:
-#                 line = line.replace(old_str1, new_str1)
-#             if old_str2 in line:
-#                 print old_str2, new_str2
-#                 line = line.replace(old_str2, new_str2)
-#             if old_str3 in line:
-#                 line = line.replace(old_str3, new_str3)
-#             if old_str4 in line:
-#                 line = line.replace(old_str4, new_str4)
-#             if old_str5 in line:
-#                 line = line.replace(old_str5, new_str5)
-#             if old_str6 in line:
-#                 line = line.replace(old_str6, new_str6)
-#             if old_str7 in line:
-#                 line = line.replace(old_str7, new_str7)
-#             if old_str8 in line:
-#                 line = line.replace(old_str8, new_str8)
-#             if old_str9 in line:
-#                 line = line.replace(old_str9, new_str9)
-#             if old_str10 in line:
-#                 line = line.replace(old_str10, new_str10)
-#             if old_str11 in line:
-#                 line = line.replace(old_str11, new_str11)
-#             f2.write(line)
-#     print "generate new file {} success".format(new_file_path)
-#
-#
-# def modify_file_version12(old_file_path, new_file_path, old_str1, new_str1, old_str2, new_str2, old_str3, new_str3,
-#                           old_str4, new_str4, old_str5, new_str5, old_str6, new_str6, old_str7, new_str7,
-#                           old_str8, new_str8, old_str9, new_str9, old_str10, new_str10, old_str11, new_str11, old_str12,
-#                           new_str12):
-#     with open(old_file_path, "r") as f1, open(new_file_path, "w") as f2:
-#         for line in f1:
-#             if old_str1 in line:
-#                 line = line.replace(old_str1, new_str1)
-#             if old_str2 in line:
-#                 print old_str2, new_str2
-#                 line = line.replace(old_str2, new_str2)
-#             if old_str3 in line:
-#                 line = line.replace(old_str3, new_str3)
-#             if old_str4 in line:
-#                 line = line.replace(old_str4, new_str4)
-#             if old_str5 in line:
-#                 line = line.replace(old_str5, new_str5)
-#             if old_str6 in line:
-#                 line = line.replace(old_str6, new_str6)
-#             if old_str7 in line:
-#                 line = line.replace(old_str7, new_str7)
-#             if old_str8 in line:
-#                 line = line.replace(old_str8, new_str8)
-#             if old_str9 in line:
-#                 line = line.replace(old_str9, new_str9)
-#             if old_str10 in line:
-#                 line = line.replace(old_str10, new_str10)
-#             if old_str11 in line:
-#                 line = line.replace(old_str11, new_str11)
-#             if old_str12 in line:
-#                 line = line.replace(old_str12, new_str12)
-#             f2.write(line)
-#     print "generate new file {} success".format(new_file_path)
-
-
 def make_special_bootlogo_file():
     new_str_dict = {1200: 1200, 1201: 1201, 1202: 1202, 1203: 1203, 1204: 1204, 1205: 1205, 1100: 1100, 1101: 1101,
                     1102: 1102, 1103: 1103, 1104: 1104}
@@ -442,12 +345,6 @@ def make_incorrect_hardversion():
                         old_str5: new_str5, old_str6: new_str6, old_str7: new_str7, old_str8: new_str8,
                         old_str9: new_str9, old_str10: new_str10, old_str11: new_str11}
     modify_file(old_file_path, new_file_path, dict_old_new_str)
-
-    # modify_file_version11(old_file_path, new_file_path, old_str1, new_str1, old_str2, new_str2, old_str3,
-    #                       new_str3, old_str4, new_str4, old_str5, new_str5, old_str6, new_str6, old_str7,
-    #                       new_str7, old_str9, new_str9, old_str10, new_str10, old_str8, new_str8, old_str11,
-    #                       new_str11)
-
     print "streantool file Generate complete"
 
 
@@ -488,11 +385,6 @@ def make_incorrect_oui():
                         old_str5: new_str5, old_str6: new_str6, old_str7: new_str7, old_str8: new_str8,
                         old_str9: new_str9, old_str10: new_str10, old_str11: new_str11}
     modify_file(old_file_path, new_file_path, dict_old_new_str)
-    # modify_file_version11(old_file_path, new_file_path, old_str1, new_str1, old_str2, new_str2, old_str3,
-    #                       new_str3, old_str4, new_str4, old_str5, new_str5, old_str6, new_str6, old_str7,
-    #                       new_str7, old_str9, new_str9, old_str10, new_str10, old_str8, new_str8, old_str11,
-    #                       new_str11)
-
     print "streantool file Generate complete"
 
 
@@ -549,11 +441,6 @@ def make_wrong_sigend():
                         old_str5: new_str5, old_str6: new_str6, old_str7: new_str7, old_str8: new_str8,
                         old_str9: new_str9, old_str10: new_str10, old_str11: new_str11}
     modify_file(old_file_path, new_file_path, dict_old_new_str)
-    # modify_file_version11(old_file_path, new_file_path, old_str1, new_str1, old_str2, new_str2, old_str3,
-    #                       new_str3, old_str4, new_str4, old_str5, new_str5, old_str6, new_str6, old_str7,
-    #                       new_str7, old_str9, new_str9, old_str10, new_str10, old_str8, new_str8, old_str11,
-    #                       new_str11)
-
     print "streantool file Generate complete"
 
 
@@ -594,11 +481,6 @@ def make_incorrect_manufacturedes():
                         old_str5: new_str5, old_str6: new_str6, old_str7: new_str7, old_str8: new_str8,
                         old_str9: new_str9, old_str10: new_str10, old_str11: new_str11}
     modify_file(old_file_path, new_file_path, dict_old_new_str)
-    # modify_file_version11(old_file_path, new_file_path, old_str1, new_str1, old_str2, new_str2, old_str3,
-    #                       new_str3, old_str4, new_str4, old_str5, new_str5, old_str6, new_str6, old_str7,
-    #                       new_str7, old_str9, new_str9, old_str10, new_str10, old_str8, new_str8, old_str11,
-    #                       new_str11)
-
     print "streantool file Generate complete"
 
 
@@ -638,11 +520,6 @@ def make_incorrect_machinedes():
                         old_str5: new_str5, old_str6: new_str6, old_str7: new_str7, old_str8: new_str8,
                         old_str9: new_str9, old_str10: new_str10, old_str11: new_str11}
     modify_file(old_file_path, new_file_path, dict_old_new_str)
-    # modify_file_version11(old_file_path, new_file_path, old_str1, new_str1, old_str2, new_str2, old_str3,
-    #                       new_str3, old_str4, new_str4, old_str5, new_str5, old_str6, new_str6, old_str7,
-    #                       new_str7, old_str9, new_str9, old_str10, new_str10, old_str8, new_str8, old_str11,
-    #                       new_str11)
-
     print "streantool file Generate complete"
 
 
@@ -685,11 +562,6 @@ def make_downloadpid_1030_tableid_0():
                         old_str5: new_str5, old_str6: new_str6, old_str7: new_str7, old_str8: new_str8,
                         old_str9: new_str9, old_str10: new_str10, old_str11: new_str11, old_str12: new_str12}
     modify_file(old_file_path, new_file_path, dict_old_new_str)
-    # modify_file_version12(old_file_path, new_file_path, old_str1, new_str1, old_str2, new_str2, old_str3,
-    #                       new_str3, old_str4, new_str4, old_str5, new_str5, old_str6, new_str6, old_str7,
-    #                       new_str7, old_str9, new_str9, old_str10, new_str10, old_str8, new_str8, old_str11,
-    #                       new_str11, old_str90, new_str90)
-
     print "streantool file Generate complete"
 
 
@@ -730,11 +602,6 @@ def make_dsi_crc():
                         old_str5: new_str5, old_str6: new_str6, old_str7: new_str7, old_str8: new_str8,
                         old_str9: new_str9, old_str10: new_str10, old_str11: new_str11}
     modify_file(old_file_path, new_file_path, dict_old_new_str)
-    # modify_file_version11(old_file_path, new_file_path, old_str1, new_str1, old_str2, new_str2, old_str3,
-    #                       new_str3, old_str4, new_str4, old_str5, new_str5, old_str6, new_str6, old_str7,
-    #                       new_str7, old_str9, new_str9, old_str10, new_str10, old_str8, new_str8, old_str11,
-    #                       new_str11)
-
     print "streantool file Generate complete"
 
 
@@ -775,11 +642,6 @@ def make_dii_crc():
                         old_str5: new_str5, old_str6: new_str6, old_str7: new_str7, old_str8: new_str8,
                         old_str9: new_str9, old_str10: new_str10, old_str11: new_str11}
     modify_file(old_file_path, new_file_path, dict_old_new_str)
-    # modify_file_version11(old_file_path, new_file_path, old_str1, new_str1, old_str2, new_str2, old_str3,
-    #                       new_str3, old_str4, new_str4, old_str5, new_str5, old_str6, new_str6, old_str7,
-    #                       new_str7, old_str9, new_str9, old_str10, new_str10, old_str8, new_str8, old_str11,
-    #                       new_str11)
-
     print "streantool file Generate complete"
 
 
@@ -820,11 +682,6 @@ def make_ddb_crc():
                         old_str5: new_str5, old_str6: new_str6, old_str7: new_str7, old_str8: new_str8,
                         old_str9: new_str9, old_str10: new_str10, old_str11: new_str11}
     modify_file(old_file_path, new_file_path, dict_old_new_str)
-    # modify_file_version11(old_file_path, new_file_path, old_str1, new_str1, old_str2, new_str2, old_str3,
-    #                       new_str3, old_str4, new_str4, old_str5, new_str5, old_str6, new_str6, old_str7,
-    #                       new_str7, old_str9, new_str9, old_str10, new_str10, old_str8, new_str8, old_str11,
-    #                       new_str11)
-
     print "streantool file Generate complete"
 
 
@@ -865,11 +722,6 @@ def make_downloadheader_crc():
                         old_str5: new_str5, old_str6: new_str6, old_str7: new_str7, old_str8: new_str8,
                         old_str9: new_str9, old_str10: new_str10, old_str11: new_str11}
     modify_file(old_file_path, new_file_path, dict_old_new_str)
-    # modify_file_version11(old_file_path, new_file_path, old_str1, new_str1, old_str2, new_str2, old_str3,
-    #                       new_str3, old_str4, new_str4, old_str5, new_str5, old_str6, new_str6, old_str7,
-    #                       new_str7, old_str9, new_str9, old_str10, new_str10, old_str8, new_str8, old_str11,
-    #                       new_str11)
-
     print "streantool file Generate complete"
 
 
