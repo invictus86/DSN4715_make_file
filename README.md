@@ -22,14 +22,6 @@ InputFile6 "24 bl31.aes 1 7"
 
 注意输入文件名如果与GenerateUpgImage.cfg中输入文件名称不一致，需修改输入文件名称，并要确保文件完整性
 
-
-针对其他型号的loader在使用此脚本时需进行修改，主要适配如下设置项：
-1、模块文件数及Module_Index，此模板为6个模块
-2、ModelNo
-3、HardWareNo
-建议先使用beyond compare工具对比，按照模板格式进行修改
-
-
 大文件和超大文件的制作需要考虑flash map大小进行调整
 大文件：flash map 的80%
 超大文件：flash map的110%
@@ -38,3 +30,9 @@ InputFile6 "24 bl31.aes 1 7"
 1、fsi.uImage
 2、fsi.bin
 3、bootlogo.bin
+
+针对其他型号的loader在使用此脚本时需进行修改，主要适配如下设置项：
+1、模块文件数及Module_Index，此模板为6个模块
+2、ModelNo
+3、HardWareNo
+建议先使用beyond compare工具对比，按照模板格式进行修改
