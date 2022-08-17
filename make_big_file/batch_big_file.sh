@@ -1,0 +1,19 @@
+./cutsize ./fsi.uImage 9600000
+mv image_cut.bin big_vmlinux_size.bin
+./cutsize ./fsi.uImage 14000000
+mv image_cut.bin excessive_big_vmlinux_size.bin
+./cutsize ./fsi.bin 220000000
+mv image_cut.bin big_fsi_size.bin
+./cutsize ./fsi.bin 330000000
+mv image_cut.bin excessive_big_fsi_size.bin
+./cutsize ./bootlogo.bin 700000
+mv image_cut.bin big_bootlogo_size.bin
+./cutsize ./bootlogo.bin 1200000
+mv image_cut.bin excessive_big_bootlogo_size.bin
+cp ./big_vmlinux_size.bin ../big_vmlinux_size.bin
+cp ./excessive_big_vmlinux_size.bin ../excessive_big_vmlinux_size.bin
+cp ./big_fsi_size.bin ../big_fsi_size.bin
+cp ./excessive_big_fsi_size.bin ../excessive_big_fsi_size.bin
+cp ./big_bootlogo_size.bin ../big_bootlogo_size.bin
+cp ./excessive_big_bootlogo_size.bin ../excessive_big_bootlogo_size.bin
+
